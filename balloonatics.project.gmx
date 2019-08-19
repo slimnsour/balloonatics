@@ -10,6 +10,7 @@
     <sprite>sprites\spr_char_attack_mask</sprite>
     <sprite>sprites\spr_char_mask_old</sprite>
     <sprite>sprites\spr_block</sprite>
+    <sprite>sprites\spr_block_full</sprite>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_jump_platform</sprite>
     <sprite>sprites\spr_proj</sprite>
@@ -87,6 +88,9 @@
     <script>scripts\render.gml</script>
     <script>scripts\loop_draw.gml</script>
     <script>scripts\inc_image_index.gml</script>
+    <scripts name="Tiles">
+      <script>scripts\scr_smart_block.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <object>objects\oCharBurstPlayer</object>
