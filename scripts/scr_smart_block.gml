@@ -15,5 +15,45 @@ if(w_up)
 {
     tile = 0;
 }
+if(w_right and not(w_left) and w_up)
+{
+    tile = 2;
+}
+
+if (w_up) {
+    if (w_down) {
+        if (w_right) {
+            if(w_left) {
+                tile = 0;
+            } else {
+                tile = 2;
+            }
+        } else {
+            tile = 1;
+        }
+    } else {
+        if (w_right) {
+            if(w_left) {
+                tile = 0;
+            } else {
+                tile = 2;
+            }
+        } else {
+            tile = 1;
+        }
+    }
+} else {
+    if (w_down) {
+        if (w_right) {
+            if(w_left) {
+                tile = 3;
+            } else {
+                tile = 5;
+            }
+        } else {
+            tile = 4;
+        }
+    }
+}
 
 return tile

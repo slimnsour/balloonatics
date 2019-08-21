@@ -32,7 +32,12 @@
     <sprite>sprites\spr_seetru</sprite>
     <sprite>sprites\spr_pop</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_green_64</background>
+    <background>background\green_tiles_64</background>
+    <background>background\bg_green_128_64</background>
+    <background>background\bg_green_light</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="Player">
