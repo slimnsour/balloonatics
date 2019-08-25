@@ -3,8 +3,8 @@
   <caption></caption>
   <width>1536</width>
   <height>720</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -31,7 +31,7 @@
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="-1" foreground="0" name="bg_green_light" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -51,9 +51,6 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="oChar" x="240" y="608" name="inst_427DC953" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oCamera" x="448" y="576" name="inst_B199505C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oPhysics" x="480" y="576" name="inst_03791D15" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSolid" x="512" y="640" name="inst_EFF17488" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSolid" x="544" y="640" name="inst_B08D4AD3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSolid" x="576" y="640" name="inst_369CF7A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -212,8 +209,6 @@
     <instance objName="oSolid" x="640" y="416" name="inst_C5C2A668" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSolid" x="672" y="416" name="inst_6E773444" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSolid" x="672" y="448" name="inst_171E3E27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oSolid" x="608" y="352" name="inst_B79A041B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oSolid" x="640" y="352" name="inst_0707EBFD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSolid" x="608" y="384" name="inst_515EE503" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSolid" x="640" y="384" name="inst_17E874A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSolid" x="672" y="384" name="inst_C47A201D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -341,8 +336,24 @@
     <instance objName="oSolid" x="1568" y="704" name="inst_9B3BA2DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSolid" x="1600" y="704" name="inst_6CFE3B57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSolid" x="1600" y="672" name="inst_401B5CDE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oChar" x="224" y="608" name="inst_43F8EE38" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oPhysics" x="432" y="560" name="inst_5B28FDA1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCamera" x="464" y="560" name="inst_5B6C2675" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
-  <tiles/>
+  <tiles>
+    <tile bgName="shrubbery_tileset" x="544" y="592" w="32" h="32" xo="0" yo="0" id="10000160" name="inst_8DF2D6A0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="0" y="592" w="32" h="32" xo="0" yo="0" id="10000161" name="inst_FBA6AE23" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="512" y="592" w="32" h="32" xo="0" yo="32" id="10000163" name="inst_C58F05D3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="304" y="592" w="32" h="32" xo="0" yo="32" id="10000164" name="inst_24E7E199" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="304" y="560" w="32" h="32" xo="0" yo="0" id="10000165" name="inst_EAD5D181" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="512" y="560" w="32" h="32" xo="0" yo="0" id="10000166" name="inst_65E8F2C3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="256" y="592" w="32" h="32" xo="0" yo="64" id="10000167" name="inst_2C663FDA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="256" y="560" w="32" h="32" xo="0" yo="32" id="10000168" name="inst_0054C83A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="256" y="528" w="32" h="32" xo="0" yo="0" id="10000169" name="inst_CC36D46D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="1344" y="528" w="32" h="32" xo="0" yo="0" id="10000170" name="inst_6B44CF50" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="1344" y="560" w="32" h="32" xo="0" yo="32" id="10000171" name="inst_BA75B6EF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="1344" y="592" w="32" h="32" xo="0" yo="64" id="10000173" name="inst_DEC1DA33" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+  </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
   <PhysicsWorldLeft>0</PhysicsWorldLeft>

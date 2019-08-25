@@ -37,6 +37,8 @@
     <background>background\green_tiles_64</background>
     <background>background\bg_green_128_64</background>
     <background>background\bg_green_light</background>
+    <background>background\bg_green</background>
+    <background>background\shrubbery_tileset</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -95,6 +97,7 @@
     <script>scripts\inc_image_index.gml</script>
     <scripts name="Tiles">
       <script>scripts\scr_smart_block.gml</script>
+      <script>scripts\tile_background.gml</script>
     </scripts>
   </scripts>
   <objects name="objects">
