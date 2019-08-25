@@ -341,8 +341,6 @@
     <instance objName="oCamera" x="464" y="560" name="inst_5B6C2675" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
-    <tile bgName="shrubbery_tileset" x="544" y="592" w="32" h="32" xo="0" yo="0" id="10000160" name="inst_8DF2D6A0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="shrubbery_tileset" x="0" y="592" w="32" h="32" xo="0" yo="0" id="10000161" name="inst_FBA6AE23" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="shrubbery_tileset" x="512" y="592" w="32" h="32" xo="0" yo="32" id="10000163" name="inst_C58F05D3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="shrubbery_tileset" x="304" y="592" w="32" h="32" xo="0" yo="32" id="10000164" name="inst_24E7E199" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="shrubbery_tileset" x="304" y="560" w="32" h="32" xo="0" yo="0" id="10000165" name="inst_EAD5D181" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -350,9 +348,28 @@
     <tile bgName="shrubbery_tileset" x="256" y="592" w="32" h="32" xo="0" yo="64" id="10000167" name="inst_2C663FDA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="shrubbery_tileset" x="256" y="560" w="32" h="32" xo="0" yo="32" id="10000168" name="inst_0054C83A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="shrubbery_tileset" x="256" y="528" w="32" h="32" xo="0" yo="0" id="10000169" name="inst_CC36D46D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="shrubbery_tileset" x="1344" y="528" w="32" h="32" xo="0" yo="0" id="10000170" name="inst_6B44CF50" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="shrubbery_tileset" x="1344" y="560" w="32" h="32" xo="0" yo="32" id="10000171" name="inst_BA75B6EF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="shrubbery_tileset" x="1344" y="592" w="32" h="32" xo="0" yo="64" id="10000173" name="inst_DEC1DA33" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="384" y="592" w="32" h="32" xo="32" yo="0" id="10000174" name="inst_729DD07A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="416" y="592" w="32" h="32" xo="64" yo="0" id="10000175" name="inst_F74F51C2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="448" y="592" w="32" h="32" xo="96" yo="0" id="10000176" name="inst_B4A39E25" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="96" y="592" w="32" h="32" xo="96" yo="0" id="10000177" name="inst_5D499100" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="64" y="592" w="32" h="32" xo="64" yo="0" id="10000178" name="inst_9F57326F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="32" y="592" w="32" h="32" xo="64" yo="0" id="10000179" name="inst_8AC4C652" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="1504" y="592" w="32" h="32" xo="32" yo="0" id="10000180" name="inst_AB14049B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="800" y="400" w="32" h="32" xo="32" yo="0" id="10000181" name="inst_7172BC93" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="832" y="400" w="32" h="32" xo="96" yo="0" id="10000182" name="inst_E97D0681" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="608" y="336" w="32" h="32" xo="0" yo="64" id="10000183" name="inst_1E422146" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="608" y="304" w="32" h="32" xo="0" yo="32" id="10000184" name="inst_C54396A1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="608" y="272" w="32" h="32" xo="0" yo="0" id="10000185" name="inst_50AFA03A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="656" y="336" w="32" h="32" xo="0" yo="32" id="10000186" name="inst_5D1D94B1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="656" y="304" w="32" h="32" xo="0" yo="0" id="10000187" name="inst_92A0ED80" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="1136" y="528" w="32" h="32" xo="32" yo="0" id="10000188" name="inst_B90B81DF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="1168" y="528" w="32" h="32" xo="64" yo="0" id="10000189" name="inst_55E3F2CC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="1232" y="528" w="32" h="32" xo="96" yo="0" id="10000190" name="inst_81998C41" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="1200" y="528" w="32" h="32" xo="64" yo="0" id="10000191" name="inst_90BFF3B1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="0" y="592" w="32" h="32" xo="64" yo="0" id="10000192" name="inst_21F41B9B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="1424" y="592" w="32" h="32" xo="0" yo="32" id="10000194" name="inst_AE585ED4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="1424" y="560" w="32" h="32" xo="0" yo="0" id="10000195" name="inst_E4E7EDE7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="1456" y="592" w="32" h="32" xo="0" yo="0" id="10000197" name="inst_2AB5DFE0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
