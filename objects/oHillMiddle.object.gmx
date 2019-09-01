@@ -26,40 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>type = 2;
-depth = 2000000-y 
 wall_jump = false;
 image_speed = 0;
-image_index = scr_smart_hill(oJumpPlatform, sprite_width);
-hill_y = y + sprite_height;
-while (hill_y &lt; room_height) {
-    hill_middle = instance_create(x, hill_y, oHillMiddle);
-    hill_middle.image_index = image_index - 3;
-    hill_middle.depth = depth;
-    hill_y = hill_y + sprite_height;
-}
 </string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="3" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string></string>
           </argument>
         </arguments>
       </action>

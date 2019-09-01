@@ -58,19 +58,22 @@ tile_background(bg_green, num_tiles)
 
 // Loop over created shrubbery, duplicate them at different locations
 var tiles = tile_get_ids_at_depth(1000000);
-for (var i = 0; i &lt; array_length_1d(tiles); i++;)
-{
-    tile_set_alpha(tiles[i], 1);
-    tile = tiles[i]
-    tile_bg = tile_get_background(tile);
-    tile_left = tile_get_left(tile);
-    tile_top = tile_get_top(tile);
-    tile_width = tile_get_width(tile);
-    tile_height = tile_get_height(tile);
-    tile_x = tile_get_x(tile);
-    tile_y = tile_get_y(tile);
-    tile_add(tile_bg, tile_left, tile_top, tile_width, tile_height, tile_x+room_width, tile_y, 1000000);
-    tile_add(tile_bg, tile_left, tile_top, tile_width, tile_height, tile_x-room_width, tile_y, 1000000);
+show_debug_message(array_length_1d(tiles));
+if (array_length_1d(tiles) &gt; 1 ) {
+    for (var i = 0; i &lt; array_length_1d(tiles); i++;)
+    {
+        tile_set_alpha(tiles[i], 1);
+        tile = tiles[i]
+        tile_bg = tile_get_background(tile);
+        tile_left = tile_get_left(tile);
+        tile_top = tile_get_top(tile);
+        tile_width = tile_get_width(tile);
+        tile_height = tile_get_height(tile);
+        tile_x = tile_get_x(tile);
+        tile_y = tile_get_y(tile);
+        tile_add(tile_bg, tile_left, tile_top, tile_width, tile_height, tile_x+room_width, tile_y, 1000000);
+        tile_add(tile_bg, tile_left, tile_top, tile_width, tile_height, tile_x-room_width, tile_y, 1000000);
+    }
 }
 </string>
           </argument>
@@ -198,7 +201,7 @@ prev_xdis = view_xview[0] - target_x;
 
 // Stop camera at bottom of level
 if(view_yview[0] &gt; (room_height-view_hview[0])){ view_yview[0] = (room_height-view_hview[0]) };
-//if(view_yview[0] &gt; (room_height-view_hview[0])){ view_yview[0] = (room_height-view_hview[0]) };
+if(view_yview[0] &lt; 0){ view_yview[0] = 0 };
 
 if(shake)
 {

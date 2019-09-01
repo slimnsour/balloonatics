@@ -96,6 +96,7 @@
     <script>scripts\loop_draw.gml</script>
     <script>scripts\inc_image_index.gml</script>
     <scripts name="Tiles">
+      <script>scripts\scr_smart_hill.gml</script>
       <script>scripts\scr_smart_block.gml</script>
       <script>scripts\tile_background.gml</script>
     </scripts>
@@ -117,6 +118,7 @@
     <object>objects\oCharHitbox</object>
     <object>objects\oCharPop</object>
     <object>objects\oJumpPlatform</object>
+    <object>objects\oHillMiddle</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_reg_cliff</room>

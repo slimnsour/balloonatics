@@ -11,8 +11,6 @@ w_upright   = place_meeting(x+iw,y-iw,obj_index);
 w_downright = place_meeting(x+iw,y+iw,obj_index);
 
 tile = 1;
-// 5 3 4
-// 2 0 1
 if (w_up) {
     if (w_down) {
         if (w_right) {
@@ -48,4 +46,9 @@ if (w_up) {
         }
     }
 }
+show_debug_message(w_up)
+show_debug_message(w_left)
+show_debug_message(w_right)
+show_debug_message(w_down)
+show_debug_message("---")
 return tile

@@ -28,7 +28,7 @@
             <string>type = 1;
 wall_jump = true;
 image_speed = 0;
-image_index = scr_smart_block()
+image_index = scr_smart_block(oSolid, sprite_width)
 </string>
           </argument>
         </arguments>

@@ -3,7 +3,7 @@
 // Moving Horizontally
 hcollide = scr_player_check_collision(x+hsp, y);
 if (hcollide) {
-    //if (hcollide.type == 1)
+    //if (hcollide.object_index == oSolid and hcollide.type == 1)
     //{
         while(!place_meeting(x+sign(hsp),y,oSolid)){ x += sign(hsp)}
         hsp = 0;

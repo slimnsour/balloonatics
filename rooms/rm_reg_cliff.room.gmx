@@ -3,8 +3,8 @@
   <caption></caption>
   <width>1536</width>
   <height>720</height>
-  <vsnap>16</vsnap>
-  <hsnap>16</hsnap>
+  <vsnap>32</vsnap>
+  <hsnap>32</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -186,7 +186,6 @@
     <instance objName="oSolid" x="736" y="608" name="inst_9AC47273" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSolid" x="704" y="608" name="inst_FC6E9ABC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSolid" x="672" y="608" name="inst_BD54A754" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oSolid" x="240" y="288" name="inst_23BB8B97" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSolid" x="608" y="416" name="inst_7F46F481" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSolid" x="608" y="448" name="inst_915D7EEB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSolid" x="608" y="480" name="inst_0A22C6ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -194,15 +193,6 @@
     <instance objName="oSolid" x="608" y="544" name="inst_5925D1D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSolid" x="608" y="576" name="inst_589E282B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSolid" x="608" y="608" name="inst_17242467" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oJumpPlatform" x="272" y="368" name="inst_AE19590B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oJumpPlatform" x="256" y="368" name="inst_86555A51" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oJumpPlatform" x="240" y="368" name="inst_D5EE41F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oJumpPlatform" x="224" y="368" name="inst_B1D63602" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oJumpPlatform" x="208" y="368" name="inst_DCF08CB8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oJumpPlatform" x="192" y="368" name="inst_B6B9350C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oJumpPlatform" x="288" y="368" name="inst_138D027F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oJumpPlatform" x="304" y="368" name="inst_6EA08502" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oJumpPlatform" x="176" y="368" name="inst_F74F59EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSolid" x="64" y="640" name="inst_34DCCDE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSolid" x="32" y="640" name="inst_FBCE8251" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSolid" x="0" y="640" name="inst_258AD23C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -213,8 +203,6 @@
     <instance objName="oSolid" x="640" y="384" name="inst_17E874A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSolid" x="672" y="384" name="inst_C47A201D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSolid" x="704" y="384" name="inst_C60B90E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oSolid" x="736" y="384" name="inst_FD43347F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oSolid" x="736" y="416" name="inst_B5DA4F97" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSolid" x="704" y="416" name="inst_B4B5635A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSolid" x="704" y="448" name="inst_693D43C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSolid" x="736" y="448" name="inst_00F9E07E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -339,6 +327,39 @@
     <instance objName="oChar" x="224" y="608" name="inst_43F8EE38" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oPhysics" x="432" y="560" name="inst_5B28FDA1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCamera" x="464" y="560" name="inst_5B6C2675" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oJumpPlatform" x="128" y="352" name="inst_83699B3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oJumpPlatform" x="160" y="352" name="inst_0DEE58ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oJumpPlatform" x="192" y="352" name="inst_C0ADC4D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oJumpPlatform" x="224" y="352" name="inst_577E3244" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oJumpPlatform" x="256" y="352" name="inst_5A76D287" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oJumpPlatform" x="1600" y="640" name="inst_02B9B28A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oJumpPlatform" x="1632" y="640" name="inst_5E6EBD1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oJumpPlatform" x="1632" y="672" name="inst_91FD58A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oJumpPlatform" x="1632" y="704" name="inst_53A90745" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oJumpPlatform" x="1664" y="704" name="inst_FD9FD003" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oJumpPlatform" x="1664" y="672" name="inst_2CC29930" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oJumpPlatform" x="1664" y="640" name="inst_6635035C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oJumpPlatform" x="1696" y="640" name="inst_9C39452F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oJumpPlatform" x="1696" y="672" name="inst_322C059C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oJumpPlatform" x="1696" y="704" name="inst_F6BF0942" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oJumpPlatform" x="1248" y="288" name="inst_E03AB321" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oJumpPlatform" x="1216" y="288" name="inst_F77BF79B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oJumpPlatform" x="1184" y="288" name="inst_3ED7A4B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oJumpPlatform" x="1152" y="288" name="inst_93212113" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oJumpPlatform" x="1120" y="288" name="inst_D044321E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oJumpPlatform" x="1088" y="288" name="inst_B6DC0CBB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oJumpPlatform" x="1056" y="288" name="inst_10BD4CFD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oJumpPlatform" x="1024" y="288" name="inst_F6C6AF58" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oSolid" x="576" y="384" name="inst_64193816" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oSolid" x="576" y="416" name="inst_0249C030" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oSolid" x="576" y="448" name="inst_5576B26F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oSolid" x="576" y="480" name="inst_84ED8F2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oSolid" x="576" y="512" name="inst_59A85825" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oSolid" x="576" y="544" name="inst_9F867719" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oSolid" x="576" y="576" name="inst_1CB6232A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oSolid" x="576" y="608" name="inst_9B166A22" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oJumpPlatform" x="64" y="352" name="inst_6EACD452" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oJumpPlatform" x="96" y="352" name="inst_B59AF941" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="shrubbery_tileset" x="512" y="592" w="32" h="32" xo="0" yo="32" id="10000163" name="inst_C58F05D3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
