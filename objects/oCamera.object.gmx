@@ -58,7 +58,6 @@ tile_background(bg_green, num_tiles)
 
 // Loop over created shrubbery, duplicate them at different locations
 var tiles = tile_get_ids_at_depth(1000000);
-show_debug_message(array_length_1d(tiles));
 if (array_length_1d(tiles) &gt; 1 ) {
     for (var i = 0; i &lt; array_length_1d(tiles); i++;)
     {

@@ -116,6 +116,8 @@ switch (state)
 }
 
 scr_end_burst();
+// Check if there is a warp to use
+scr_player_check_warp();
 // Teleport Spear
 //scr_player_teleport();
 

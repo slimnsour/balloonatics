@@ -360,6 +360,7 @@
     <instance objName="oSolid" x="576" y="608" name="inst_9B166A22" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oJumpPlatform" x="64" y="352" name="inst_6EACD452" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oJumpPlatform" x="96" y="352" name="inst_B59AF941" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWarp" x="800" y="0" name="inst_BCE00A58" locked="0" code="" scaleX="59.5" scaleY="-0.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="shrubbery_tileset" x="512" y="592" w="32" h="32" xo="0" yo="32" id="10000163" name="inst_C58F05D3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
