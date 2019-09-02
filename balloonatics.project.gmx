@@ -39,6 +39,9 @@
     <background>background\bg_green_light</background>
     <background>background\bg_green</background>
     <background>background\shrubbery_tileset</background>
+    <background>background\cliff_foreground</background>
+    <background>background\start_foreground</background>
+    <background>background\short_foreground</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -121,10 +124,11 @@
     <object>objects\oJumpPlatform</object>
     <object>objects\oHillMiddle</object>
     <object>objects\oWarp</object>
+    <object>objects\oParallax</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_reg_cliff</room>
     <room>rooms\rm_reg_start</room>
+    <room>rooms\rm_reg_cliff</room>
     <room>rooms\rm_reg_basic</room>
     <room>rooms\room4</room>
     <room>rooms\room3</room>

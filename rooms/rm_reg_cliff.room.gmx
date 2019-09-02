@@ -3,8 +3,8 @@
   <caption></caption>
   <width>1536</width>
   <height>720</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -31,7 +31,7 @@
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="-1" name="cliff_foreground" x="0" y="0" htiled="-1" vtiled="0" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -361,6 +361,7 @@
     <instance objName="oJumpPlatform" x="64" y="352" name="inst_6EACD452" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oJumpPlatform" x="96" y="352" name="inst_B59AF941" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWarp" x="800" y="0" name="inst_BCE00A58" locked="0" code="" scaleX="59.5" scaleY="-0.5" colour="4294967295" rotation="0"/>
+    <instance objName="oParallax" x="448" y="544" name="inst_8830343D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="shrubbery_tileset" x="512" y="592" w="32" h="32" xo="0" yo="32" id="10000163" name="inst_C58F05D3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -380,7 +381,6 @@
     <tile bgName="shrubbery_tileset" x="800" y="400" w="32" h="32" xo="32" yo="0" id="10000181" name="inst_7172BC93" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="shrubbery_tileset" x="832" y="400" w="32" h="32" xo="96" yo="0" id="10000182" name="inst_E97D0681" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="shrubbery_tileset" x="608" y="336" w="32" h="32" xo="0" yo="64" id="10000183" name="inst_1E422146" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="shrubbery_tileset" x="608" y="304" w="32" h="32" xo="0" yo="32" id="10000184" name="inst_C54396A1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="shrubbery_tileset" x="608" y="272" w="32" h="32" xo="0" yo="0" id="10000185" name="inst_50AFA03A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="shrubbery_tileset" x="656" y="336" w="32" h="32" xo="0" yo="32" id="10000186" name="inst_5D1D94B1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="shrubbery_tileset" x="656" y="304" w="32" h="32" xo="0" yo="0" id="10000187" name="inst_92A0ED80" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -392,6 +392,7 @@
     <tile bgName="shrubbery_tileset" x="1424" y="592" w="32" h="32" xo="0" yo="32" id="10000194" name="inst_AE585ED4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="shrubbery_tileset" x="1424" y="560" w="32" h="32" xo="0" yo="0" id="10000195" name="inst_E4E7EDE7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="shrubbery_tileset" x="1456" y="592" w="32" h="32" xo="0" yo="0" id="10000197" name="inst_2AB5DFE0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="shrubbery_tileset" x="608" y="304" w="32" h="32" xo="0" yo="32" id="10000234" name="inst_B915DB08" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
