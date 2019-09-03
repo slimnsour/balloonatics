@@ -17,7 +17,12 @@ if (w_up) {
     if (w_down) {
         if (w_right) {
             if(w_left) {
-                tile = 0;
+                random_tile = random(100);
+                if (random_tile > 99) {
+                    tile = 6;
+                } else {
+                    tile = 0;
+                }
             } else {
                 tile = 2;
             }

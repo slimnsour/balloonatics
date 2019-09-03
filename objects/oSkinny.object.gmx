@@ -28,6 +28,7 @@
             <string>scr_set_enemy_vars(10);
 master_spd = 0.5;
 hsp = master_spd;
+vsp = 0;
 </string>
           </argument>
         </arguments>
@@ -74,7 +75,7 @@ scr_enemy_behaviour();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (hsp &lt; 0) x_scale = -1;
+            <string>if (hsp &lt;= 0) x_scale = -1;
 if (hsp &gt; 0) x_scale = 1;
 y_scale = 1;
 sprite_index = spr_skinny;

@@ -1,9 +1,9 @@
 /// scr_player_collision()
 
 // Moving Horizontally
-var hcollide = instance_place(x+hsp,y,oSolid);
-if (hcollide != noone) {
-    //if (hcollide.type == 1)
+hcollide = scr_player_check_collision(x+hsp, y);
+if (hcollide) {
+    //if (hcollide.object_index == oSolid and hcollide.type == 1)
     //{
         while(!place_meeting(x+sign(hsp),y,oSolid)){ x += sign(hsp)}
         hsp = 0;
@@ -14,9 +14,8 @@ x += hsp;
 
 // Moving Vertically
 
-if (!grounded) {
-vcollide = instance_place(x,y+vsp,oSolid);
-if (vcollide != noone) 
+vcollide = scr_player_check_collision(x, y+vsp);
+if (vcollide) 
 {
     // Normal Block
 
@@ -36,4 +35,3 @@ if (vcollide != noone)
     //}
 }
 y += vsp;
-}
