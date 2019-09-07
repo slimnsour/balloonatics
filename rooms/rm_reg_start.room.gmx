@@ -31,8 +31,8 @@
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="-1" foreground="-1" name="short_foreground" x="0" y="0" htiled="-1" vtiled="0" hspeed="0" vspeed="0" stretch="0"/>
-    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="-1" name="" x="0" y="0" htiled="-1" vtiled="0" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -185,10 +185,10 @@
     <instance objName="oJumpPlatform" x="-112" y="288" name="inst_FE061A81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oJumpPlatform" x="816" y="288" name="inst_298081FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oJumpPlatform" x="848" y="288" name="inst_F95C16BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oPlante" x="224" y="320" name="inst_5F358B50" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oPlante" x="688" y="256" name="inst_D7589075" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oPlante" x="208" y="288" name="inst_5F358B50" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oPlante" x="688" y="240" name="inst_D7589075" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oParallax" x="64" y="352" name="inst_FC0F2D9E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oParallax" x="192" y="832" name="inst_E48E0321" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oSkinny" x="560" y="400" name="inst_FF6B5294" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="shrubbery_tileset" x="672" y="528" w="32" h="32" xo="96" yo="0" id="10000203" name="inst_89C51608" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -215,6 +215,9 @@
     <tile bgName="shrubbery_tileset" x="80" y="432" w="32" h="32" xo="32" yo="0" id="10000227" name="inst_51BB5846" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="shrubbery_tileset" x="144" y="432" w="32" h="32" xo="96" yo="0" id="10000228" name="inst_79EE33AA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="shrubbery_tileset" x="112" y="432" w="32" h="32" xo="64" yo="0" id="10000229" name="inst_505A3517" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="scrawl_tileset" x="272" y="368" w="128" h="64" xo="128" yo="0" id="10000256" name="inst_9F7A9825" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="scrawl_tileset" x="624" y="368" w="128" h="64" xo="0" yo="64" id="10000259" name="inst_C6176EF7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="scrawl_tileset" x="752" y="368" w="128" h="64" xo="128" yo="64" id="10000260" name="inst_1D176E40" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

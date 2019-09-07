@@ -26,10 +26,21 @@
           <argument>
             <kind>1</kind>
             <string>parallax[0] = 0;
+background_index[0] = short_foreground;
+parallax[0] = 0.6;
+background_index[1] = short_background;
+parallax[1] = 0.3;
 
 for(var i = 0; background_visible[i]; i++) {
-    parallax[i] = -0.25;
+    target_width = parallax[i]*room_width;
+    adj_width[i] = ceil(target_width/background_width[i])*background_width[i];
 }
+
+// Set the height of the foreground so its attached to bottom
+background_y[0] = room_height - background_height[0];
+
+//room_set_background(rm_reg_start, 0, 1, 1, short_foreground, 0, background_y[0], 1, 0, 0, 0, 1);
+//room_set_background(room, 1, 1, 1, short_background, 0, 0, 1, 1, 0, 0, 1);
 </string>
           </argument>
         </arguments>
@@ -52,11 +63,9 @@ for(var i = 0; background_visible[i]; i++) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>for(var i = 0; background_visible[i]; i++) {
-    //show_debug_message("---")
-    //show_debug_message((room_width - 2*background_width[i]))
-    //show_debug_message((oChar.x/room_width))
-    background_x[i] = (room_width - 2*background_width[i]) * (oChar.x/room_width);
+            <string>position_factor =  (oChar.x/room_width)
+for(var i = 0; background_visible[i]; i++) {
+    background_x[i] = (room_width - 2*adj_width[i]) * position_factor;
 }
 </string>
           </argument>

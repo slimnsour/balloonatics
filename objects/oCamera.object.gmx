@@ -54,7 +54,7 @@ global.Yoffset=(global.MonitorH-1080)/2;
 background_tileset = bg_green
 num_tiles = 7
 
-tile_background(bg_green, num_tiles)
+//tile_background(bg_green, num_tiles)
 
 // Loop over created shrubbery, duplicate them at different locations
 var tiles = tile_get_ids_at_depth(1000000);
