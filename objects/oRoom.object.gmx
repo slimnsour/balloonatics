@@ -2,7 +2,7 @@
 <object>
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
-  <visible>-1</visible>
+  <visible>0</visible>
   <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
@@ -25,14 +25,17 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>fric = 0.5;
-grav = 0.4;
+            <string>// Create all global objects needed
+x_start = x;
+y_start = y; 
 
-enum estates {
-    idle,
-    dead
+if !(instance_exists(oChar)) {
+    instance_create(x_start, y_start, oChar)
 }
 
+instance_create(x,y,oCamera);
+instance_create(x,y,oPhysics);
+instance_create(x,y,oParallax);
 </string>
           </argument>
         </arguments>

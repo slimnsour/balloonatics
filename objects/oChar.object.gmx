@@ -242,12 +242,16 @@ if x&lt;0 x+=room_width;
             <kind>1</kind>
             <string>// Controls
 scr_player_controls();
-// Gravity
-scr_player_grav();
-// Collision
-scr_player_collision();
+if (state != states.start) {
+    // Gravity
+    scr_player_grav();
+    // Collision
+    scr_player_collision();
+}
 // Scale and animation
 //scr_player_keep_scale();
+x += hsp;
+y += vsp;
 </string>
           </argument>
         </arguments>

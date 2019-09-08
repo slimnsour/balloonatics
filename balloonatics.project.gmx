@@ -49,6 +49,7 @@
   <scripts name="scripts">
     <scripts name="Player">
       <script>scripts\scr_player_input.gml</script>
+      <script>scripts\scr_char_variables.gml</script>
       <script>scripts\scr_player_controls.gml</script>
       <script>scripts\scr_player_collision.gml</script>
       <script>scripts\scr_player_jump_check.gml</script>
@@ -80,13 +81,14 @@
       <script>scripts\scr_create_burst_player_hitbox.gml</script>
       <script>scripts\scr_player_draw.gml</script>
       <script>scripts\scr_ground_attack_checks.gml</script>
-      <script>scripts\scr_char_variables.gml</script>
       <script>scripts\scr_end_burst.gml</script>
       <script>scripts\scr_player_burst_hit.gml</script>
       <script>scripts\scr_burst_bounce.gml</script>
       <script>scripts\scr_player_camera_check.gml</script>
       <script>scripts\pulse.gml</script>
       <script>scripts\scr_player_check_warp.gml</script>
+      <script>scripts\scr_player_start_behaviour.gml</script>
+      <script>scripts\scr_player_check_idle.gml</script>
     </scripts>
     <script>scripts\scr_shake_screen.gml</script>
     <script>scripts\approach.gml</script>
@@ -127,6 +129,7 @@
     <object>objects\oHillMiddle</object>
     <object>objects\oWarp</object>
     <object>objects\oParallax</object>
+    <object>objects\oRoom</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_reg_cliff</room>

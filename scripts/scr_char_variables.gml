@@ -6,10 +6,10 @@ hsp = 0;
 vsp = 0;
 
 //Camera
-if(!instance_exists(oCamera))
-{
-    instance_create(0,0,oCamera);
-}
+//if(!instance_exists(oCamera))
+//{
+//    instance_create(0,0,oCamera);
+//}
 
 gamepad_set_axis_deadzone(0, 0.1);
 
@@ -22,14 +22,16 @@ enum states {
     wallslide,
     hurt,
     ground_attack,
+    start,
 }
 
-state = states.idle;
+state = states.start;
 draw_angle = 0;
 prev_direction = x_scale;
 camera_direction = x_scale;
 back_boundary_length = 64;
 back_boundary = camera_direction - x_scale*back_boundary_length;
+
 
 //Movement Variables
 
@@ -117,3 +119,9 @@ wallslide_fx_image_index = 0;
 
 spark_timer_max = 3;
 spark_timer = spark_timer_max;
+
+
+// Start variables
+// hit_air variable used for waiting until you enter the level, no collision until then
+hit_air = false;
+start_spd = jump_spd/1.1;

@@ -18,4 +18,3 @@ if((!input_left and !input_right) or (input_left and input_right))
 if(abs(vsp) < 0.1 ){ vsp = 0 };
 }
 
-if (grounded) { state = states.idle }; 

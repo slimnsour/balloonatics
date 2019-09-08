@@ -10,7 +10,6 @@ if (hcollide) {
     //}
 }
 
-x += hsp;
 
 // Moving Vertically
 vcollide = scr_player_check_collision(x, y+vsp);
@@ -33,5 +32,4 @@ if (vcollide)
         //scr_shake_screen(15,vsp/2.5);
     //}
 }
-y += vsp;
 

@@ -14,4 +14,5 @@ if (!input_attack_held && stab_hold) {
     stab_hold = false;
 }
 */
+
 scr_burst_check();

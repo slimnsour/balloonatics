@@ -71,6 +71,7 @@ switch (state)
     } case states.jump: {
 //show_debug_message("jump");
         scr_player_air_movement();
+        scr_player_check_idle();
         scr_player_spear();
         scr_player_stab_check();
         scr_player_jump_check();
@@ -107,10 +108,13 @@ switch (state)
         scr_player_stab_check();
         break;
     } case states.ground_attack: {
-//show_debug_message("attack");
         //scr_player_movement();
         scr_ground_attack_checks();
         //scr_player_stab_check();
+        break; 
+    } case states.start: {
+        scr_player_air_movement();
+        scr_player_start_behaviour();
         break; 
     } 
 }

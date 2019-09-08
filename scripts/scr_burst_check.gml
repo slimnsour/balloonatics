@@ -1,5 +1,4 @@
 // Dash
-    //show_debug_message("1");
 
     
 if (input_attack && have_gas) {

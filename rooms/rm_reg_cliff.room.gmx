@@ -324,9 +324,6 @@
     <instance objName="oSolid" x="1568" y="704" name="inst_9B3BA2DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSolid" x="1600" y="704" name="inst_6CFE3B57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSolid" x="1600" y="672" name="inst_401B5CDE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oChar" x="224" y="608" name="inst_43F8EE38" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oPhysics" x="432" y="560" name="inst_5B28FDA1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oCamera" x="464" y="560" name="inst_5B6C2675" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oJumpPlatform" x="128" y="352" name="inst_83699B3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oJumpPlatform" x="160" y="352" name="inst_0DEE58ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oJumpPlatform" x="192" y="352" name="inst_C0ADC4D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -361,7 +358,7 @@
     <instance objName="oJumpPlatform" x="64" y="352" name="inst_6EACD452" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oJumpPlatform" x="96" y="352" name="inst_B59AF941" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWarp" x="800" y="0" name="inst_BCE00A58" locked="0" code="" scaleX="59.5" scaleY="-0.5" colour="4294967295" rotation="0"/>
-    <instance objName="oParallax" x="448" y="544" name="inst_8830343D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oRoom" x="224" y="688" name="inst_B35E960A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="shrubbery_tileset" x="512" y="592" w="32" h="32" xo="0" yo="32" id="10000163" name="inst_C58F05D3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
